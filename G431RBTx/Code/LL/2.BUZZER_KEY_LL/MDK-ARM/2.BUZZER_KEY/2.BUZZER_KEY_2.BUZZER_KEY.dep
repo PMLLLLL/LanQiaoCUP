@@ -1,0 +1,106 @@
+Dependencies for Project '2.BUZZER_KEY', Target '2.BUZZER_KEY': (DO NOT MODIFY !)
+F (startup_stm32g431xx.s)(0x63A977A1)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "STM32G431xx SETA 1"--list startup_stm32g431xx.lst --xref -o 2.buzzer_key\startup_stm32g431xx.o --depend 2.buzzer_key\startup_stm32g431xx.d)
+F (../Src/main.c)(0x63A97C28)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\main.o --omf_browse 2.buzzer_key\main.crf --depend 2.buzzer_key\main.d)
+I (../Inc/main.h)(0x63A9779F)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h)(0x63A47144)
+F (../Src/stm32g4xx_it.c)(0x63A9779F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\stm32g4xx_it.o --omf_browse 2.buzzer_key\stm32g4xx_it.crf --depend 2.buzzer_key\stm32g4xx_it.d)
+I (../Inc/main.h)(0x63A9779F)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_crs.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cortex.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dmamux.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h)(0x63A47144)
+I (../Inc/stm32g4xx_it.h)(0x63A9779F)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c)(0x63A47144)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\stm32g4xx_ll_utils.o --omf_browse 2.buzzer_key\stm32g4xx_ll_utils.crf --depend 2.buzzer_key\stm32g4xx_ll_utils.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_utils.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_system.h)(0x63A47144)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h)(0x63A47144)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c)(0x63A47144)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\stm32g4xx_ll_exti.o --omf_browse 2.buzzer_key\stm32g4xx_ll_exti.crf --depend 2.buzzer_key\stm32g4xx_ll_exti.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c)(0x63A47144)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\stm32g4xx_ll_gpio.o --omf_browse 2.buzzer_key\stm32g4xx_ll_gpio.crf --depend 2.buzzer_key\stm32g4xx_ll_gpio.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_gpio.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h)(0x63A47144)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c)(0x63A47144)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\stm32g4xx_ll_pwr.o --omf_browse 2.buzzer_key\stm32g4xx_ll_pwr.crf --depend 2.buzzer_key\stm32g4xx_ll_pwr.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h)(0x63A47144)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h)(0x63A47144)
+F (../Src/system_stm32g4xx.c)(0x63A47140)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_2.BUZZER_KEY-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"F:\Proteus Cortex-M3\keil5ARM\ARM\PACK\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"-D__UVISION_VERSION="523" -D_RTE_ -DSTM32G431xx -DSTM32G431xx -DUSE_FULL_LL_DRIVER -DHSE_VALUE="24000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="0" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1"-o 2.buzzer_key\system_stm32g4xx.o --omf_browse 2.buzzer_key\system_stm32g4xx.crf --depend 2.buzzer_key\system_stm32g4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x63A47140)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x63A47143)
+I (F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x63A47143)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x63A47143)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x63A47140)

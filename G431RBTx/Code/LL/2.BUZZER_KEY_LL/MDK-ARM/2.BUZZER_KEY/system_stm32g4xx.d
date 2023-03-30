@@ -1,0 +1,10 @@
+2.buzzer_key\system_stm32g4xx.o: ../Src/system_stm32g4xx.c
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Include/core_cm4.h
+2.buzzer_key\system_stm32g4xx.o: F:\ProteusCortex-M3\keil5ARM\ARM\ARMCC\Bin\..\include\stdint.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Include/cmsis_version.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+2.buzzer_key\system_stm32g4xx.o: ../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h
