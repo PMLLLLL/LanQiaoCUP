@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"9\startup_stm32g431xx.o"
+"9\main.o"
+"9\gpio.o"
+"9\stm32g4xx_it.o"
+"9\stm32g4xx_hal_msp.o"
+"9\lcd_hal.o"
+"9\stm32g4xx_hal_gpio.o"
+"9\stm32g4xx_hal_tim.o"
+"9\stm32g4xx_hal_tim_ex.o"
+"9\stm32g4xx_ll_pwr.o"
+"9\stm32g4xx_hal.o"
+"9\stm32g4xx_hal_rcc.o"
+"9\stm32g4xx_hal_rcc_ex.o"
+"9\stm32g4xx_hal_flash.o"
+"9\stm32g4xx_hal_flash_ex.o"
+"9\stm32g4xx_hal_flash_ramfunc.o"
+"9\stm32g4xx_hal_exti.o"
+"9\stm32g4xx_hal_dma.o"
+"9\stm32g4xx_hal_dma_ex.o"
+"9\stm32g4xx_hal_pwr.o"
+"9\stm32g4xx_hal_pwr_ex.o"
+"9\stm32g4xx_hal_cortex.o"
+"9\system_stm32g4xx.o"
+--library_type=microlib --strict --scatter "9\9.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "9.map" -o 9\9.axf
